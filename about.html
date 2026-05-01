@@ -1,41 +1,142 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Over Linux</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Assuming you have a styles.css for dark cyberpunk styling -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Leer meer over Linux, het open-source besturingssysteem dat de wereld aandrijft.">
+  <title>Over Linux - Open Source Platform</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation Menu -->
-    <nav>
+  <!-- Header -->
+  <header class="header">
+    <div class="container navbar">
+      <a href="index.html" class="logo">Linux</a>
+
+      <button class="mobile-menu-btn" id="menu-btn" aria-label="Menu">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="about.html">Over</a></li>
+        <li><a href="index.html#distributions">Distributies</a></li>
+        <li><a href="index.html#timeline">Geschiedenis</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Over Linux</h1>
+      <p>Ontdek het open-source besturingssysteem dat de digitale wereld aandrijft. Van servers tot smartphones, Linux is overal.</p>
+    </div>
+  </section>
+
+  <!-- Wat is Linux -->
+  <section class="section content-section">
+    <div class="container">
+      <div class="content-grid">
+        <div>
+          <h2>Wat is Linux?</h2>
+          <p>Linux is een open-source besturingssysteem dat gebaseerd is op de Unix-architectuur. Het werd voor het eerst gepubliceerd in 1991 door Linus Torvalds, een Finse student die een gratis alternatief wilde creëren voor het commerciële Unix.</p>
+          <p>In tegenstelling tot Windows of macOS, is Linux volledig open-source. Dit betekent dat iedereen de broncode kan bekijken, aanpassen en verspreiden. Deze openheid heeft geleid tot een enorm ecosysteem van verschillende distributies, elk met hun eigen focus en doelgroep.</p>
+        </div>
+        <div class="highlight-box">
+          <h3>Snelle Feiten</h3>
+          <ul style="list-style: none; padding: 0;">
+            <li style="margin-bottom: 0.75rem;">🐧 <strong>Eerste release:</strong> 1991</li>
+            <li style="margin-bottom: 0.75rem;">👨‍💻 <strong>Ontwikkelaar:</strong> Linus Torvalds</li>
+            <li style="margin-bottom: 0.75rem;">📜 <strong>Licentie:</strong> GPL v2</li>
+            <li style="margin-bottom: 0.75rem;">🌍 <strong>Gebruikers:</strong> Miljarden wereldwijd</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Open Source -->
+  <section class="section content-section" style="background: rgba(255,255,255,0.02);">
+    <div class="container">
+      <div class="content-grid reverse">
+        <div>
+          <h2>Open Source Collaboratie</h2>
+          <p>Linux wordt ontwikkeld door een wereldwijd netwerk van duizenden ontwikkelaars. Deze community drijft de innovatie aan en zorgt ervoor dat bugs snel worden opgelost en nieuwe functies worden geïmplementeerd.</p>
+          <p>De open-source filosofie betekent dat kennis wordt gedeeld in plaats van beschermd. Bedrijven zoals Google, IBM, Intel en Microsoft dragen allemaal bij aan de Linux-kernel, omdat ze profiteren van een stabiel en veilig fundament voor hun diensten.</p>
+        </div>
+        <div class="highlight-box">
+          <h3>Waarom Open Source?</h3>
+          <p style="margin-bottom: 1rem;">✓ <strong>Transparantie:</strong> Iedereen kan de code controleren</p>
+          <p style="margin-bottom: 1rem;">✓ <strong>Veiligheid:</strong> Snellere detectie van kwetsbaarheden</p>
+          <p style="margin-bottom: 1rem;">✓ <strong>Flexibiliteit:</strong> Pas het systeem aan naar jouw wensen</p>
+          <p style="margin-bottom: 1rem;">✓ <strong>Kosten:</strong> Gratis te gebruiken en te distribueren</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Universeel Platform -->
+  <section class="section content-section">
+    <div class="container">
+      <div class="content-grid">
+        <div>
+          <h2>Universeel Platform</h2>
+          <p>Linux draait op bijna elk denkbaar apparaat. Van de kleinste embedded systemen in IoT-apparaten tot de krachtigste supercomputers ter wereld - Linux schaalt moeiteloos mee.</p>
+          <p>Android, het meest gebruikte mobiele besturingssysteem ter wereld, is gebaseerd op Linux. Ook de meeste webservers, cloud-infrastructuren en smart-tv's gebruiken Linux als basis.</p>
+        </div>
+        <div class="card" style="text-align: center;">
+          <h3 class="card-title" style="font-size: 3rem; margin-bottom: 0.5rem;">100%</h3>
+          <p>Van de top 500 supercomputers draait op Linux</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Info -->
+  <section class="section" style="background: linear-gradient(135deg, rgba(0,212,255,0.05), transparent); border-top: 1px solid var(--border-color);">
+    <div class="container text-center">
+      <h2>Over Dit Project</h2>
+      <p>Deze website is gemaakt als schoolproject voor SALCO 2026.</p>
+      <p>Het doel is om de geschiedenis, voordelen en toepassingen van Linux op een toegankelijke manier te presenteren.</p>
+      <a href="index.html" class="btn btn-primary" style="margin-top: 1.5rem;">Terug naar Home</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-section">
+        <h4>Linux</h4>
+        <p>Open-source technologie voor moderne infrastructuur en innovatie. Ontdek de kracht van vrij software.</p>
+      </div>
+
+      <div class="footer-section">
+        <h4>Navigatie</h4>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="distributions.html">Distributies</a></li>
-            <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="about.html">Over</a></li>
+          <li><a href="index.html#distributions">Distributies</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
         </ul>
-    </nav>
+      </div>
 
-    <h1>Over Linux</h1>
-    <p>Deze website is gemaakt als schoolproject, SALCO 2026</p>
+      <div class="footer-section">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="https://linux.org" target="_blank" rel="noopener">Linux.org</a></li>
+          <li><a href="https://kernel.org" target="_blank" rel="noopener">Kernel.org</a></li>
+          <li><a href="https://github.com/torvalds/linux" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
 
-    <section>
-        <h2>Wat is Linux?</h2>
-        <p>Linux is een open-source besturingssysteem dat op varianten van de Unix-structuur is gebaseerd. Het is populair voor servers en verschillende apparaattypen.</p>
-    </section>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Linux Website. Alle rechten voorbehouden. | SALCO Schoolproject</p>
+    </div>
+  </footer>
 
-    <section>
-        <h2>Open Source Collaboratie</h2>
-        <p>Linux wordt ontwikkeld door een wereldwijd netwerk van ontwikkelaars die samenwerken om het besturingssysteem te verbeteren en te vernieuwen.</p>
-    </section>
-
-    <section>
-        <h2>Universeel Platform</h2>
-        <p>Linux is oor veel verschillende hardwareplatforms beschikbaar, van desktopcomputers tot servers en embedded systemen.</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2026 Your Company Name. All Rights Reserved.</p>
-    </footer>
+  <script src="index.js"></script>
 </body>
 </html>
