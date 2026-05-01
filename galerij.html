@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Linux desktop omgevingen galerij. Bekijk screenshots van GNOME, KDE Plasma, XFCE, Cinnamon en meer. Inspiratie voor je Linux setup.">
+  <meta name="keywords" content="Linux desktop, GNOME, KDE Plasma, XFCE, Cinnamon, MATE, Budgie, screenshots, thema's, customization, wallpaper">
+  <meta name="author" content="SALCO Schoolproject 2026">
+  <meta property="og:title" content="Linux Galerij - Desktop Omgevingen">
+  <meta property="og:description" content="Linux desktop omgevingen galerij. Bekijk screenshots van GNOME, KDE Plasma, XFCE, Cinnamon en meer.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://example.com/galerij.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://example.com/galerij.html">
+  <title>Linux Galerij - Desktop Omgevingen | GNOME, KDE, XFCE Screenshots</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container navbar">
+      <a href="index.html" class="logo">Linux</a>
+
+      <button class="mobile-menu-btn" id="menu-btn" aria-label="Menu">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Over</a></li>
+        <li><a href="distributies.html">Distributies</a></li>
+        <li><a href="galerij.html">Galerij</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Linux Desktop Galerij</h1>
+      <p>Verken de diverse en prachtige desktop omgevingen die Linux te bieden heeft.</p>
+    </div>
+  </section>
+
+  <!-- Filter Buttons -->
+  <section class="section">
+    <div class="container">
+      <div class="filter-buttons text-center">
+        <button class="filter-btn active" data-filter="all">Alle Desktops</button>
+        <button class="filter-btn" data-filter="modern">Modern</button>
+        <button class="filter-btn" data-filter="traditional">Traditioneel</button>
+        <button class="filter-btn" data-filter="lightweight">Lightweight</button>
+        <button class="filter-btn" data-filter="customizable">Aanpasbaar</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Desktop Galerij -->
+  <section class="section gallery-section">
+    <div class="container">
+      <div class="gallery-grid extended">
+        <!-- GNOME Desktop -->
+        <div class="gallery-item" data-category="modern">
+          
+          <div class="gallery-overlay">
+            <h4>GNOME Desktop</h4>
+            <p>Modern en minimalistisch met activiteiten-overzicht</p>
+            <div class="desktop-tags">
+              <span class="tag modern">Modern</span>
+              <span class="tag">GTK</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- KDE Plasma -->
+        <div class="gallery-item" data-category="modern customizable">
+          
+          <div class="gallery-overlay">
+            <h4>KDE Plasma</h4>
+            <p>Uiterst aanpasbaar met rijke features</p>
+            <div class="desktop-tags">
+              <span class="tag modern">Modern</span>
+              <span class="tag customizable">Aanpasbaar</span>
+              <span class="tag">Qt</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ubuntu Desktop -->
+        <div class="gallery-item" data-category="modern">
+          
+          <div class="gallery-overlay">
+            <h4>Ubuntu Desktop</h4>
+            <p>Gebruiksvriendelijk met GNOME basis</p>
+            <div class="desktop-tags">
+              <span class="tag modern">Modern</span>
+              <span class="tag beginner">Beginner</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Linux Mint Cinnamon -->
+        <div class="gallery-item" data-category="traditional">
+          
+          <div class="gallery-overlay">
+            <h4>Linux Mint Cinnamon</h4>
+            <p>Traditionele layout met moderne features</p>
+            <div class="desktop-tags">
+              <span class="tag traditional">Traditioneel</span>
+              <span class="tag beginner">Beginner</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- XFCE Desktop -->
+        <div class="gallery-item" data-category="lightweight traditional">
+          
+          <div class="gallery-overlay">
+            <h4>XFCE Desktop</h4>
+            <p>Lightweight en stabiel, perfect voor oudere hardware</p>
+            <div class="desktop-tags">
+              <span class="tag lightweight">Lightweight</span>
+              <span class="tag traditional">Traditioneel</span>
+            </div>
+          </div>
+        </div>
+
+        
+        <!-- Hyprland -->
+        <div class="gallery-item" data-category="modern">
+          
+          <div class="gallery-overlay">
+            <h4>Hyprland</h4>
+            <p>Modern dynamic tiling Wayland compositor</p>
+            <div class="desktop-tags">
+              <span class="tag modern">Modern</span>
+              <span class="tag">Wayland</span>
+              <span class="tag">Tiling</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Desktop Omgevingen Info -->
+  <section class="section content-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <h2>Desktop Omgevingen Vergeleken</h2>
+        <p>Elke desktop omgeving heeft zijn eigen sterke punten</p>
+      </div>
+
+      <div class="desktop-comparison">
+        <div class="comparison-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Desktop</th>
+                <th>Gebruik</th>
+                <th>Resource Gebruik</th>
+                <th>Aanpasbaarheid</th>
+                <th>Best Voor</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>GNOME</strong></td>
+                <td>Modern</td>
+                <td>Medium</td>
+                <td>Medium</td>
+                <td>Beginners, Productiviteit</td>
+              </tr>
+              <tr>
+                <td><strong>KDE Plasma</strong></td>
+                <td>Modern</td>
+                <td>Medium-High</td>
+                <td>Extreem</td>
+                <td>Power Users, Customization</td>
+              </tr>
+              <tr>
+                <td><strong>XFCE</strong></td>
+                <td>Traditioneel</td>
+                <td>Low</td>
+                <td>High</td>
+                <td>Oude Hardware, Servers</td>
+              </tr>
+              <tr>
+                <td><strong>Cinnamon</strong></td>
+                <td>Traditioneel</td>
+                <td>Medium</td>
+                <td>High</td>
+                <td>Windows Overstappers</td>
+              </tr>
+                            <tr>
+                <td><strong>Hyprland</strong></td>
+                <td>Modern</td>
+                <td>Low</td>
+                <td>Extreem</td>
+                <td>Performance, Tiling</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Customization Tips -->
+  <section class="section content-section" style="background: rgba(255,255,255,0.02);">
+    <div class="container">
+      <div class="section-header text-center">
+        <h2>Personaliseer Je Desktop</h2>
+        <p>Maak je Linux desktop uniek met deze tips</p>
+      </div>
+
+      <div class="tips-grid grid grid-3">
+        <div class="card">
+          <h3 class="card-title">Thema's en Iconen</h3>
+          <p>Verander het uiterlijk met thema's van GNOME Look, KDE Store of Pling.com. Populaire thema's: Adwaita-dark, Papirus, Numix.</p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">Extensions & Plugins</h3>
+          <p>Voeg extra functionaliteit toe met GNOME Extensions, KDE Widgets of XFCE Plugins. Verbeter productiviteit en workflow.</p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">Window Managers</h3>
+          <p>Experimenteer met tiling window managers zoals i3, Sway of bspwm voor een keyboard-driven ervaring.</p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">Terminal Customization</h3>
+          <p>Maak je terminal mooier met Oh My Zsh, Fish shell, en color schemes zoals Dracula of Nord.</p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">Conky & Widgets</h3>
+          <p>Toon systeeminformatie op je desktop met Conky of andere desktop widgets voor een techy look.</p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">Compositing Effects</h3>
+          <p>Voeg visuele effecten toe met Compiz, KWin Effects of Mutter voor animaties en transitions.</p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">Tiling Window Managers</h3>
+          <p>Experimenteer met Hyprland, i3, Sway of bspwm voor een keyboard-driven, tiling ervaring met maximale productiviteit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-section">
+        <h4>Linux Galerij</h4>
+        <p>Ontdek de visuele pracht en veelzijdigheid van Linux desktop omgevingen. Van minimalistisch tot rijk en feature-vol.</p>
+      </div>
+
+      <div class="footer-section">
+        <h4>Navigatie</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Over</a></li>
+          <li><a href="distributies.html">Distributies</a></li>
+          <li><a href="galerij.html">Galerij</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="https://www.gnome-look.org" target="_blank" rel="noopener">GNOME Look</a></li>
+          <li><a href="https://store.kde.org" target="_blank" rel="noopener">KDE Store</a></li>
+          <li><a href="https://pling.com" target="_blank" rel="noopener">Pling.com</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Linux Website - SALCO Schoolproject. Alle rechten voorbehouden.</p>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+  <script>
+    // Gallery Filter Functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const filterButtons = document.querySelectorAll('.filter-btn');
+      const galleryItems = document.querySelectorAll('.gallery-item');
+
+      filterButtons.forEach(function(button) {
+        button.addEventListener('click', function() {
+          // Remove active class from all buttons
+          filterButtons.forEach(function(btn) { btn.classList.remove('active'); });
+          // Add active class to clicked button
+          this.classList.add('active');
+
+          const filter = this.getAttribute('data-filter');
+
+          galleryItems.forEach(function(item) {
+            if (filter === 'all') {
+              item.style.display = 'block';
+              setTimeout(function() { item.style.opacity = '1'; }, 10);
+            } else {
+              const categories = item.getAttribute('data-category').split(' ');
+              if (categories.includes(filter)) {
+                item.style.display = 'block';
+                setTimeout(function() { item.style.opacity = '1'; }, 10);
+              } else {
+                item.style.opacity = '0';
+                setTimeout(function() { item.style.display = 'none'; }, 300);
+              }
+            }
+          });
+        });
+      });
+
+      // Add smooth transitions
+      galleryItems.forEach(function(item) {
+        item.style.transition = 'opacity 0.3s ease-in-out';
+      });
+    });
+  </script>
+</body>
+</html>
