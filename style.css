@@ -48,78 +48,6 @@ img {
   height: auto;
 }
 
-/* ==================== Unixporn Gallery ==================== */
-.unixporn-gallery {
-  display: grid;
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.unixporn-item {
-  background: var(--secondary-color);
-  border-radius: 1rem;
-  overflow: hidden;
-  border: 1px solid var(--border-color);
-  transition: var(--transition);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.5rem;
-  align-items: center;
-}
-
-.unixporn-item:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-md), var(--shadow-glow);
-  border-color: var(--accent-color);
-}
-
-.unixporn-image {
-  position: relative;
-  overflow: hidden;
-  background: var(--primary-color);
-}
-
-.unixporn-image img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  transition: var(--transition);
-}
-
-.unixporn-item:hover .unixporn-image img {
-  transform: scale(1.05);
-}
-
-.unixporn-info {
-  padding: 1.5rem;
-}
-
-.unixporn-info h3 {
-  color: var(--accent-color);
-  margin-bottom: 0.5rem;
-  font-size: 1.25rem;
-}
-
-.unixporn-info .credit {
-  color: var(--text-muted);
-  font-size: 0.9rem;
-  margin-bottom: 0.5rem;
-}
-
-.unixporn-info .credit a {
-  color: var(--accent-color);
-  text-decoration: underline;
-}
-
-.unixporn-info .credit a:hover {
-  color: var(--text-color);
-}
-
-.unixporn-info .description {
-  color: var(--text-color);
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
 
 /* Distro Buttons */
 .distro-buttons {
@@ -922,15 +850,28 @@ p {
   box-shadow: var(--shadow-glow);
 }
 
-.gallery-item img {
+.distro-name {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--secondary-color);
+  padding: 2rem;
+  text-align: center;
+}
+
+.distro-name h3 {
+  color: var(--accent-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
   transition: var(--transition);
 }
 
-.gallery-item:hover img {
+.gallery-item:hover .distro-name h3 {
   transform: scale(1.1);
+  color: var(--text-color);
 }
 
 .gallery-overlay {
